@@ -78,13 +78,29 @@ nav li a:hover {
 }
 
 .container-data {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.container-data div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
 }
 
 .container-link {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    list-style: none;
+}
+
+.container-link a {
+    color: #25343F;
+    text-decoration: none;
 }
 
 .container-form {
